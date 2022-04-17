@@ -1,6 +1,6 @@
 # About
 
-This application is developed to search error logs from the provided log file. (--input option from command line)
+This application is developed to search error logs from the provided log file. (--input option from command line).
 It generates a ouput file for error logs. (--output option from command line.)
 This application is developed and tested on `node v16.14.2`.
 
