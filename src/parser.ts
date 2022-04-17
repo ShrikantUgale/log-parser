@@ -18,8 +18,6 @@ const parser = yargs.options({
 (async() => {
   const {input, output} = await parser.argv;
 
-  console.log(input, output);
-
   const readFileStream = new ReadFileStream({filePath: input, fs}).openReadStream();
   const writeFileStream = new WriteFileStream({filePath: output, fs}).openWriteStream();
   
