@@ -1,0 +1,23 @@
+{
+  "name": "log-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && tsc && cp ./src/app.log ./dist",
+    "build:watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "14.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "@types/yargs": "^17.0.10",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.3"
+  }
+}
